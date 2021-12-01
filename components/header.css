@@ -26,9 +26,6 @@
   margin-right: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.header-navlink1 {
-  display: contents;
-}
 .header-container1 {
   display: flex;
   align-items: center;
