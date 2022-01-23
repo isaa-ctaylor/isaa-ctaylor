@@ -24,8 +24,13 @@
         line-height: 1.15;
         color: var(--dl-color-gray-black);
         background-color: var(--dl-color-gray-white);
-
+        -ms-overflow-style: none;
+        scrollbar-width: none;
       }
+      body::-webkit-scrollbar{
+        display: none;
+      }
+
     </style>
     <link
       rel="stylesheet"
@@ -49,6 +54,9 @@
       <div class="index-container">
         <div class="index-banner"><h1 class="index-text">Isaac Taylor</h1></div>
       </div>
+      <p>
+        This is a test
+      </p>
     </div>
   </body>
 </html>
